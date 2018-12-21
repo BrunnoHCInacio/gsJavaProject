@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+<h:head>
+    <title>Lista de Cidades</title>
+</h:head>
+<h:body>
+    <f:metadata>
+        <f:viewAction id="actCidade" action="#{cidadeBean.pesquisarTodos}" />
+    </f:metadata>
+    <h:form>
+        <p:growl id="listaCidade" showDetail="true"/>
+        <p:panel header="Lista de Cidades">
+            <p:dataTable id="tableCidade" var="cidade" value="#{cidadeBean.listaCidade}">
+                <p:column headerText="Id">
+                    <h:outputText value="#{cidade.id}" />
+                </p:column>
+
+                <p:column headerText="Nome">
+                    <h:outputText value="#{cidade.nome}" />
+                </p:column>
+
+                <p:column headerText="Estado">
+                    <h:outputText value="#{cidade.estado.nome}" />
+                </p:column>
+
+                <p:column headerText="Actions" id="actions">
+                    <p:commandLink  action="#{cidadeBean.paginaEditarCidade(cidade.id)}" style="margin-right:20px;">
+                        <h:outputText value="edit" />
+                    </p:commandLink>
+                    <p:commandLink  action="#{cidadeBean.deletar(cidade.id)}" style="margin-right:20px;" update="@form">
+                        <h:outputText value="delete" />
+                    </p:commandLink>
+                </p:column>
+            </p:dataTable>
+        </p:panel>
+    </h:form>
+</h:body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+<h:head>
+    <title>Lista de Cidades</title>
+</h:head>
+<h:body>
+    <f:metadata>
+        <f:viewAction id="actCliente" action="#{clienteBean.listar}" />
+    </f:metadata>
+    <h:form>
+        <p:growl id="listaCliente" showDetail="true"/>
+        <p:panel header="Lista de Clientes">
+            <p:dataTable id="tableCliente" var="cliente" value="#{clienteBean.listaClientes}">
+                <p:column headerText="Id">
+                    <h:outputText value="#{cliente.id}" />
+                </p:column>
+
+                <p:column headerText="Nome">
+                    <h:outputText value="#{cliente.nome}" />
+                </p:column>
+
+                <p:column headerText="CPF">
+                    <h:outputText value="#{cliente.cpf}" />
+                </p:column>
+
+                <p:column headerText="RG">
+                    <h:outputText value="#{cliente.rg}" />
+                </p:column>
+
+                <p:column headerText="Endereco">
+                    <h:outputText value="#{cliente.endereco.logradouro}" />
+                </p:column>
+                <p:column headerText="Actions" id="actions">
+                    <p:commandLink  action="#{clienteBean.paginaEditarCliente(cliente.id)}" style="margin-right:20px;">
+                        <h:outputText value="edit" />
+                    </p:commandLink>
+                    <p:commandLink  action="#{clienteBean.deletar(cliente.id)}" style="margin-right:20px;" update="@form">
+                        <h:outputText value="delete" />
+                    </p:commandLink>
+                </p:column>
+
+            </p:dataTable>
+        </p:panel>
+    </h:form>
+</h:body>
+</html>

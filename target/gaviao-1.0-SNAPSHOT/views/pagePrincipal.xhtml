@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+    <head>
+        <title>Página Principal</title>
+    </head>
+    <h:body>
+        <p:panel header="Cadastro de Cidade">
+            <h:form>
+                <h:panelGrid columns="10" cellpadding="3" id="pnl">
+                <p:commandButton value="Cadastro de Cliente" id="cadastro-cliente" action="#{menuBean.paginaCadastroCliente}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Lista de endereços" id="lista-enderecos" action="#{menuBean.paginaListaEnderecos}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Lista de Cliente" id="lista-cliente" action="#{menuBean.paginaListaCliente}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Cadastro de Cidade" id="cadastro-cidade" action="#{menuBean.paginaCadastroCidade}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Lista de Cidade" id="lista-cidade" action="#{menuBean.paginaListaCidade}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Cadastro de Estado" id="cadastro-estado" action="#{menuBean.paginaCadastroEstado}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                <p:commandButton value="Lista de Estado" id="lista-estado" action="#{menuBean.paginaListaEstado}" style="margin-right:20px;" styleClass="ui-priority-primary" />
+                </h:panelGrid>
+            </h:form>
+        </p:panel>
+    </h:body>
+</html>

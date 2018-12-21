@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+<h:head>
+    <title>Lista de Endereços</title>
+</h:head>
+<h:body>
+    <f:metadata>
+        <f:viewAction id="actEndereco" action="#{clienteEnderecoBean.pesquisarTodos}" />
+    </f:metadata>
+    <h:form>
+        <p:growl id="listaEndereco" showDetail="true"/>
+        <p:panel header="Lista de Endereços">
+            <p:dataTable id="tableEndereco" var="endereco" value="#{clienteEnderecoBean.listaEndereco}">
+
+                <p:column headerText="Id">
+                    <h:outputText value="#{endereco.id}" />
+                </p:column>
+                <p:column headerText="Logradouro">
+                    <h:outputText value="#{endereco.logradouro}" />
+                </p:column>
+                <p:column headerText="Número">
+                    <h:outputText value="#{endereco.numero}" />
+                </p:column>
+                <p:column headerText="Complemento">
+                    <h:outputText value="#{endereco.complemento}" />
+                </p:column>
+                <p:column headerText="Bairro">
+                    <h:outputText value="#{endereco.bairro}" />
+                </p:column>
+                <p:column headerText="Cidade">
+                    <h:outputText value="#{endereco.cidade.nome}" />
+                </p:column>
+
+                <p:column headerText="Pais">
+                    <h:outputText value="#{endereco.pais}" />
+                </p:column>
+                <p:column headerText="CEP">
+                    <h:outputText value="#{endereco.cep}" />
+                </p:column>
+                <p:column headerText="Actions" id="actions">
+                    <p:commandLink  action="#{clienteEnderecoBean.paginaEditarEndereco(endereco.id)}" style="margin-right:20px;">
+                        <h:outputText value="edit" />
+                    </p:commandLink>
+                    <p:commandLink  action="#{clienteEnderecoBean.deletar(endereco.id)}" style="margin-right:20px;" update="@form">
+                        <h:outputText value="delete" />
+                    </p:commandLink>
+                </p:column>
+            </p:dataTable>
+        </p:panel>
+    </h:form>
+</h:body>
+</html>
