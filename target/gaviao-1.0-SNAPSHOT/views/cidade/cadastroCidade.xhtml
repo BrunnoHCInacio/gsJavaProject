@@ -12,11 +12,16 @@
         <title>Title</title>
     </h:head>
     <h:body>
+        <f:metadata>
+            <f:viewAction action="#{cidadeBean.inicializar}" />
+        </f:metadata>
         <h:form>
         <p:panel header="Cadastro de Cidade" id="cadastro-cidade">
             <h:panelGrid columns="2" cellpadding="5" id="cidade">
                 <p:outputLabel value="Nome:" for="nome"/>
-                <p:inputText id="nome" value="#{cidadeBean.cidade.nome}" required="true"/>
+                <p:inputText  id="nome" value="#{cidadeBean.cidade.nome}" required="true">
+                    <p:ajax process="@this" />
+                </p:inputText>
                 <p:outputLabel value="Estado:" for="auto-complete-estado" />
                 <p:autoComplete id="auto-complete-estado"
                                 dropdown="true"
@@ -27,10 +32,18 @@
                                 itemLabel="#{c.nome}"
                                 itemValue="#{c}"
                                 forceSelection="true"
+
                                 required="true"
-                />
+                >
+                    <p:ajax event="itemSelect" process="@this" />
+                </p:autoComplete>
                 <p:watermark value="pesquise pelo estado" for="auto-complete-estado"></p:watermark>
-                <p:commandButton value="Salvar" actionListener="#{cidadeBean.salvar}" update="@form" style="margin-right:20px;" styleClass="ui-priority-primary"/>
+                <p:commandButton value="Salvar"
+                                 process="@this"
+                                 actionListener="#{cidadeBean.salvar}"
+                                 update="@form"
+                                 style="margin-right:20px;"
+                                 styleClass="ui-priority-primary"/>
             </h:panelGrid>
         </p:panel>
         </h:form>

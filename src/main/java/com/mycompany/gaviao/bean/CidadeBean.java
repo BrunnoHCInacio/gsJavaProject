@@ -10,11 +10,12 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 
+import java.io.Serializable;
 import java.util.*;
 
 @ManagedBean
 @ViewScoped
-public class CidadeBean implements IBean{
+public class CidadeBean implements Serializable {
 
     protected Cidade cidade = new Cidade();
     protected Message message = new Message();
@@ -25,10 +26,13 @@ public class CidadeBean implements IBean{
 
     String params = (String) FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap().get("id");
 
-    @Override
+
     public void salvar() {
         try{
-            if(validate.validatePost(cidade)){
+            if(params != null){
+                alterar(cidade);
+            }
+            else if(validate.validatePost(cidade)){
                 cidadeDAO.create(cidade);
                 message.renderMessage("Success", "Cidade cadastrada com sucesso!");
                 limparCampos();
@@ -38,14 +42,11 @@ public class CidadeBean implements IBean{
         }
     }
 
-    @Override
-    public List<Cidade> pesquisarTodos() {
+    public void pesquisarTodos() {
         try{
            listaCidade = cidadeDAO.retreaveAll();
-           return listaCidade;
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao pesquisar todas cidades");
-            return null;
         }
     }
     public Cidade pesquisarPorId(Long id){
@@ -69,27 +70,29 @@ public class CidadeBean implements IBean{
             return listaCidade;
         }catch (Exception e){
             System.out.println("Erro ao pesquisar endereco por nome! " + e);
+            return null;
         }
-        return null;
     }
 
-    @Override
+
     public void alterar(Object objCidade) {
         try{
             if(validate.validatePost(objCidade)){
                 cidadeDAO.update(objCidade);
                 message.renderMessage("Success", "Cidade alterada com sucesso!");
                 limparCampos();
+                atualizaTela();
             }
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao alterar cidade!");
         }
     }
 
-    @Override
-    public void deletar(int id) {
+
+    public void deletar(Cidade cidade) {
         try{
-            cidadeDAO.delete(id);
+            cidadeDAO.delete(cidade);
+            pesquisarTodos();
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao deletar cidade!");
         }
@@ -116,24 +119,24 @@ public class CidadeBean implements IBean{
             int paramId = Integer.parseInt(params);
             if(paramId != 0){
                 Cidade cidade = pesquisarPorId((long) paramId);
+                setCidade(cidade);
             }
         }
     }
     public String paginaEditarCidade(int id){
-        return "cadastroCidade?faces-redirect=true";
+        return "cadastroCidade?faces-redirect=true&id="+id;
     }
     public String paginaListarCidade(){
-        return "cadastroCidade?faces-redirect=true";
+        return "listaCidade?faces-redirect=true";
     }
     public void atualizaTela(){
         try{
-            FacesContext.getCurrentInstance().getExternalContext().redirect("cadastroCidade.xhtml?faces-redirect=true");
+            FacesContext.getCurrentInstance().getExternalContext().redirect("listaCidade.xhtml?faces-redirect=true");
         }catch (Exception e){
             System.out.println("Erro ao atualizar tela. " +e);
         }
     }
     public void limparCampos(){
-        cidade.setNome("");
-        cidade.getEstado().setNome("");
+        cidade = new Cidade();
     }
 }

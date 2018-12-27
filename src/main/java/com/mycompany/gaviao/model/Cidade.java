@@ -8,7 +8,7 @@ public class Cidade {
     private int id;
     private String nome;
     private Estado estado;
-    private Boolean ativo;
+    private int ativo;
 
     @Id
     @Column(name = "id")
@@ -38,11 +38,10 @@ public class Cidade {
     }
 
     @Column(name = "ativo")
-    public Boolean getAtivo() {
+    public int getAtivo() {
         return ativo;
     }
-
-    public void setAtivo(Boolean ativo) {
+    public void setAtivo(int ativo) {
         this.ativo = ativo;
     }
 }

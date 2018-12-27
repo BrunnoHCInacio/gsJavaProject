@@ -31,8 +31,8 @@ public class CidadeConverter implements Converter {
 
     public String getAsString(FacesContext context, UIComponent component, Object value) {
         if (value != null) {
-            Cidade estado = (Cidade) value;
-            return Integer.toString(estado.getId());
+            Cidade cidade = (Cidade) value;
+            return Integer.toString(cidade.getId());
         }
         return null;
     }

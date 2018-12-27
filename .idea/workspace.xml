@@ -7,34 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d10932-1998-4730-a4e0-f90c45d49322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gaviao_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gaviao_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_faces_2_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gaviao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gaviao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" afterDir="false" />
@@ -42,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" afterDir="false" />
@@ -62,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/gaviao.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/CidadeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/CidadeBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" afterDir="false" />
@@ -74,13 +46,12 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Estado.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/CidadeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/CidadeDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteEnderecoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteEnderecoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/EstadoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/EstadoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/IService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/CidadeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/CidadeBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" afterDir="false" />
@@ -92,19 +63,19 @@
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Estado.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/CidadeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/CidadeDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteEnderecoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteEnderecoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/EstadoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/EstadoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/IService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/cadastroCidade.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/cadastroCidade.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/listaCidade.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/listaCidade.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/cadastroCliente.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/cadastroCliente.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/listaClientes.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/listaClientes.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/endereco/listaClienteEndereco.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/endereco/listaClienteEndereco.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/cadastroEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/cadastroEstado.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/listaEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/listaEstado.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/pagePrincipal.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/pagePrincipal.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,23 +101,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="89">
+              <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
               <folding>
-                <element signature="e#3739#3740#0" expanded="true" />
-                <element signature="e#3805#3806#0" expanded="true" />
+                <element signature="method#pesquisarTodosClientes#0;class#ClienteBean#0" />
+                <element signature="method#pesquisarTodosEnderecos#0;class#ClienteBean#0" />
+                <element signature="method#pesquisarPorIdEndereco#0;class#ClienteBean#0" />
+                <element signature="method#deletarCliente#0;class#ClienteBean#0" />
+                <element signature="method#deletar#0;class#ClienteBean#0" />
+                <element signature="e#6405#6406#0" expanded="true" />
+                <element signature="e#6451#6452#0" expanded="true" />
+                <element signature="e#6435#6436#0" expanded="true" />
+                <element signature="e#6475#6476#0" expanded="true" />
+                <element signature="method#atualizaTela#0;class#ClienteBean#0" />
+                <element signature="e#7776#7777#0" expanded="true" />
+                <element signature="e#7824#7825#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -154,35 +126,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="124" column="11" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="124" selection-end-column="11" />
+            <state relative-caret-position="157">
+              <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="106" column="11" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="106" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -213,32 +203,33 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/IBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql" />
       </list>
     </option>
   </component>
@@ -413,8 +404,8 @@
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545852918186" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545938778357" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -422,7 +413,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -526,16 +517,15 @@
       <workItem from="1545413379773" duration="1314000" />
       <workItem from="1545415294697" duration="6848000" />
       <workItem from="1545816808558" duration="27153000" />
-      <workItem from="1545901849620" duration="12346000" />
+      <workItem from="1545901849620" duration="31080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47940000" />
+    <option name="totallyTimeSpent" value="66674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,11 +536,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -576,7 +566,7 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -589,7 +579,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -622,30 +612,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java</url>
+          <line>139</line>
           <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="71" />
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="((QueryException)ex).detailMessage" custom="org.hibernate.QueryException" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -737,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -765,43 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2692#2693#0" expanded="true" />
-            <element signature="e#2749#2750#0" expanded="true" />
-            <element signature="e#2789#2790#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,81 +769,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <folding>
-            <element signature="e#6188#6189#0" expanded="true" />
-            <element signature="e#6224#6225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#3739#3740#0" expanded="true" />
-            <element signature="e#3805#3806#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,19 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -941,41 +790,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="124" column="11" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="124" selection-end-column="11" />
+        <state relative-caret-position="209">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="175">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="226">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        <state relative-caret-position="138">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
             <element signature="method#inicializar#0;class#EstadoBean#0" />
-            <element signature="method#salvar#0;class#EstadoBean#0" />
             <element signature="method#pesquisarTodos#0;class#EstadoBean#0" />
             <element signature="method#pesquisarPorId#0;class#EstadoBean#0" />
             <element signature="method#pesquisarPorNome#0;class#EstadoBean#0" />
@@ -986,26 +832,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        <state relative-caret-position="716">
+          <caret line="104" column="58" lean-forward="true" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
           <folding>
             <element signature="method#getSession#0;class#EstadoDAO#0" />
-            <element signature="method#create#0;class#EstadoDAO#0" />
             <element signature="method#retreaveAll#0;class#EstadoDAO#0" />
-            <element signature="method#retreaveById#0;class#EstadoDAO#0" />
-            <element signature="method#retreaveByNome#0;class#EstadoDAO#0" />
-            <element signature="method#update#0;class#EstadoDAO#0" />
-            <element signature="method#delete#0;class#EstadoDAO#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="106" column="11" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="106" selection-end-column="11" />
+        <state relative-caret-position="157">
+          <caret line="87" column="99" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
+          <folding>
+            <element signature="method#getSession#0;class#ClienteDAO#0" />
+            <element signature="method#create#0;class#ClienteDAO#0" />
+            <element signature="method#retreaveByNome#0;class#ClienteDAO#0" />
+            <element signature="method#update#0;class#ClienteDAO#0" />
+            <element signature="method#delete#0;class#ClienteDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-786">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
+          <folding>
+            <element signature="method#pesquisarTodosClientes#0;class#ClienteBean#0" />
+            <element signature="method#pesquisarTodosEnderecos#0;class#ClienteBean#0" />
+            <element signature="method#pesquisarPorIdEndereco#0;class#ClienteBean#0" />
+            <element signature="method#deletarCliente#0;class#ClienteBean#0" />
+            <element signature="method#deletar#0;class#ClienteBean#0" />
+            <element signature="e#6405#6406#0" expanded="true" />
+            <element signature="e#6451#6452#0" expanded="true" />
+            <element signature="e#6435#6436#0" expanded="true" />
+            <element signature="e#6475#6476#0" expanded="true" />
+            <element signature="method#atualizaTela#0;class#ClienteBean#0" />
+            <element signature="e#7776#7777#0" expanded="true" />
+            <element signature="e#7824#7825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -12,15 +12,15 @@ public class ClienteEnderecoValidate implements IValidate {
             return false;
         }else if(endereco.getNumero().equals(null) || endereco.getNumero().equals("")){
             return false;
-        }else if(endereco.getComplemento().equals(null) || endereco.getComplemento().equals("")){
+        }else if(endereco.getComplemento() == null || endereco.getComplemento().equals("")){
             return false;
-        }else if(endereco.getBairro().equals(null) || endereco.getBairro().equals("")){
+        }else if(endereco.getBairro() == null || endereco.getBairro().equals("")){
             return false;
-        }else if(endereco.getCidade().equals(null) || endereco.getCidade().equals("")){
+        }else if(endereco.getCidade()== null || endereco.getCidade().equals("")){
             return false;
-        }else if(endereco.getPais().equals(null) || endereco.getPais().equals("")){
+        }else if(endereco.getPais() == null || endereco.getPais().equals("")){
             return false;
-        }else if(endereco.getCep().equals(null) || !endereco.getCep().matches("[0-9]{2}\\.?[0-9]{3}\\.?[0-9]{3}")){
+        }else if(endereco.getCep() == null || !endereco.getCep().matches("[0-9]{2}\\.?[0-9]{3}\\.?[0-9]{3}")){
             message.renderMessage("Error", "O cep deve conter 8 dígitos, sendo eles números");
             return false;
         }

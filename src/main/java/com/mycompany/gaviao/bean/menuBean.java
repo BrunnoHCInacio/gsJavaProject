@@ -2,12 +2,13 @@ package com.mycompany.gaviao.bean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
+import java.io.Serializable;
 
 @ManagedBean
 @ViewScoped
-public class menuBean {
+public class menuBean implements Serializable {
     public String paginaCadastroCliente(){
-        return "cliente/cadastroCliente?faces-redirect=true";
+        return "cliente/cadastroPessoa?faces-redirect=true";
     }
     public String paginaCadastroCidade(){
         return "cidade/cadastroCidade?faces-redirect=true";

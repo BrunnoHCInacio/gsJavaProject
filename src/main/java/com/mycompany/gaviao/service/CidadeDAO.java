@@ -10,6 +10,7 @@ import org.hibernate.criterion.Projection;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
+import java.beans.Expression;
 import java.util.List;
 
 public class CidadeDAO implements IService {
@@ -25,6 +26,8 @@ public class CidadeDAO implements IService {
 
     @Override
     public void create(Object objCidade) throws Exception {
+        Cidade cidade = (Cidade) objCidade;
+        cidade.setAtivo(1);
         try {
             session = getSession();
             session.beginTransaction();
@@ -42,7 +45,10 @@ public class CidadeDAO implements IService {
         try{
             session = getSession();
             session.beginTransaction();
-            List<Cidade> cidades =  session.createCriteria(Cidade.class, "c").createAlias("c.estado", "e").list();
+            List<Cidade> cidades =  session.createCriteria(Cidade.class, "cidade")
+                    .add(Restrictions.eq("cidade.ativo", 1))
+                    .createAlias("cidade.estado", "estado")
+                    .list();
             return cidades;
         }catch (Exception e){
             throw new Exception("Erro ao pesquisar todas as cidades!" + e);
@@ -56,8 +62,15 @@ public class CidadeDAO implements IService {
         try{
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery(" from Cidade where id =" + id);
-            return query.uniqueResult();
+            Cidade cidade = (Cidade) session.createCriteria(Cidade.class, "cidade")
+                    .add(Restrictions.eq("cidade.ativo",1))
+                    .createAlias("cidade.estado", "estado")
+                    .add(Restrictions.eq("cidade.id", id))
+                    .uniqueResult();
+            return cidade;
+//            Query query = session.createQuery(" from Cidade where id =" + id);
+//            return query.uniqueResult();
+//            return null;
         }catch (Exception e){
             throw new Exception(" Erro ao pesquisar cidade pelo id!" + e);
         }finally {
@@ -68,9 +81,14 @@ public class CidadeDAO implements IService {
         try {
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Cidade where nome LIKE '" + nome + "%'");
-            List result = query.list();
-            return result;
+            List resultList = session.createCriteria(Cidade.class, "cidade")
+                    .add(Restrictions.eq("cidade.ativo", 1))
+                    .add(Restrictions.like("nome",nome+"%"))
+                    .list();
+//            Query query = session.createQuery("from Cidade where nome LIKE '" + nome + "%'");
+//            List result = query.list();
+//            return result;
+            return resultList;
         }catch (Exception e){
             throw new Exception("Erro ao pesquisar cidade pelo nome!"+ e);
         }
@@ -96,12 +114,15 @@ public class CidadeDAO implements IService {
     }
 
     @Override
-    public void delete(int id) throws Exception {
+    public void delete(Object objCidade) throws Exception {
+        Cidade cidade = (Cidade) objCidade;
+        cidade.setAtivo(0);
         try {
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Cidade where id =" + id);
-            query.executeUpdate();
+            session.saveOrUpdate(cidade);
+//            Query query = session.createQuery("from Cidade where id =" + id);
+//            query.executeUpdate();
             session.getTransaction().commit();
         }catch (Exception e){
             throw new Exception("Erro ao deletar cidade!" + e);
@@ -109,4 +130,5 @@ public class CidadeDAO implements IService {
             session.close();
         }
     }
+
 }

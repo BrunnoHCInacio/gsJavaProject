@@ -5,7 +5,6 @@ import javax.faces.context.FacesContext;
 
 public class Message {
     public void renderMessage(String tipo, String message) {
-        FacesContext context = FacesContext.getCurrentInstance();
-        context.addMessage(null, new FacesMessage(tipo, message) );
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, tipo, message));
     }
 }

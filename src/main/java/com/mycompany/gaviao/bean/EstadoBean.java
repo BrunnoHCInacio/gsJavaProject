@@ -9,40 +9,63 @@ import com.mycompany.gaviao.validate.EstadoValidate;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @ManagedBean
 @ViewScoped
-public class EstadoBean implements IBean {
+public class EstadoBean implements Serializable {
     Message message = new Message();
     Estado estado = new Estado();
     EstadoDAO estadoDAO = new EstadoDAO();
     EstadoValidate validate = new EstadoValidate();
     List<Estado> listaEstado = new ArrayList<>();
+    String params  = (String) FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap().get("id");
 
-    @Override
+    public void inicializar(){
+        if(params != null){
+            int intParam = Integer.parseInt(params);
+            Estado estado = pesquisarPorId((long) intParam);
+            setEstado(estado);
+        }
+    }
+
     public void salvar() {
         try{
-            if(validate.validatePost(estado)){
+            if(params != null){
+                alterar(estado);
+            }
+            else if(validate.validatePost(estado)){
                 estadoDAO.create(estado);
                 limparCampos();
                 message.renderMessage("Successful", "Estado cadastrado com sucesso!");
+
             }
+
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao cadastrar novo estado!");
         }
     }
 
-    @Override
-    public List<Estado> pesquisarTodos() {
+    public void pesquisarTodos() {
         try {
-            return listaEstado = estadoDAO.retreaveAll();
+             listaEstado = estadoDAO.retreaveAll();
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao listar todos os estados");
         }
-        return null;
     }
+
+    public Estado pesquisarPorId(Long id){
+        try{
+            int intId = id.intValue();
+            return estado = (Estado) estadoDAO.retreaveById(intId);
+        }catch (Exception e){
+            message.renderMessage("Error", "Erro ao pesquisar estado pelo id!");
+            return null;
+        }
+    }
+
     public List<Estado> pesquisarPorNome(String nome){
         try {
             listaEstado = estadoDAO.retreaveByNome(nome);
@@ -56,30 +79,29 @@ public class EstadoBean implements IBean {
         }
     }
 
-    @Override
     public void alterar(Object objEstado) {
         try{
             if(validate.validatePost(objEstado)){
                 estadoDAO.update(objEstado);
                 message.renderMessage("Successful", "Estado alterado com sucesso!");
                 limparCampos();
+                atualizaTela();
             }
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao alterar estado!");
         }
     }
 
-    @Override
-    public void deletar(int id) {
+//    Alterando status ativo do Estado
+    public void deletar(Estado estado) {
         try {
-            estadoDAO.delete(id);
+            estadoDAO.delete(estado);
             message.renderMessage("Successful", "Estado deletado com sucesso!");
-
+            pesquisarTodos();
         }catch (Exception e){
             message.renderMessage("Error", "Erro ao deletar estado!");
         }
     }
-
 
 //    Get e Set Estado e listaEstado
     public Estado getEstado() {
@@ -99,11 +121,11 @@ public class EstadoBean implements IBean {
 
     //    Métodos funcionais da tela
     public void limparCampos(){
-        estado.setNome("");
+        estado = new Estado();
     }
     public void atualizaTela(){
         try{
-            FacesContext.getCurrentInstance().getExternalContext().redirect("cadastroEstado?faces-redirect=true");
+            FacesContext.getCurrentInstance().getExternalContext().redirect("listaEstado.xhtml?faces-redirect=true");
         }catch (Exception e){
             System.out.println("Erro ao atualizar tela! Mensagem: " + e);
         }
@@ -112,6 +134,6 @@ public class EstadoBean implements IBean {
         return "cadastroEstado?faces-redirect=true&id="+id;
     }
     public String paginaListarEstado(){
-        return "cadastroEstado?faces-redirect=true";
+        return "listaEstado?faces-redirect=true";
     }
 }

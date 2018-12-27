@@ -14,7 +14,7 @@ public class ClienteEndereco {
     private Cidade cidade;
     private String pais;
     private String cep;
-    private Boolean ativo;
+    private int ativo;
 
     private Cliente cliente;
 
@@ -79,10 +79,19 @@ public class ClienteEndereco {
     }
 
     @Column(name = "ativo")
-    public Boolean getAtivo() {
+    public int getAtivo() {
         return ativo;
     }
-    public void setAtivo(Boolean ativo) {
+    public void setAtivo(int ativo) {
         this.ativo = ativo;
+    }
+
+   @ManyToOne(fetch = FetchType.LAZY)
+   @JoinColumn(name = "cliente_id")
+    public Cliente getCliente() {
+        return cliente;
+    }
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 }

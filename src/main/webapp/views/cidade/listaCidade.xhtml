@@ -30,11 +30,11 @@
                     <h:outputText value="#{cidade.estado.nome}" />
                 </p:column>
 
-                <p:column headerText="Actions" id="actions">
+                <p:column headerText="Actions">
                     <p:commandLink  action="#{cidadeBean.paginaEditarCidade(cidade.id)}" style="margin-right:20px;">
                         <h:outputText value="edit" />
                     </p:commandLink>
-                    <p:commandLink  action="#{cidadeBean.deletar(cidade.id)}" style="margin-right:20px;" update="@form">
+                    <p:commandLink  action="#{cidadeBean.deletar(cidade)}" style="margin-right:20px;" update="@form">
                         <h:outputText value="delete" />
                     </p:commandLink>
                 </p:column>

@@ -6,6 +6,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Restrictions;
 
 import java.util.List;
 
@@ -22,6 +23,8 @@ public class EstadoDAO implements IService {
 
     @Override
     public void create(Object objEstado) throws Exception {
+        Estado estado = (Estado) objEstado;
+        estado.setAtivo(1);
         try {
             session = getSession();
             session.beginTransaction();
@@ -39,9 +42,9 @@ public class EstadoDAO implements IService {
         try{
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Estado");
-            List resultList = query.list();
-            return resultList;
+            return session.createCriteria(Estado.class, "estado")
+                    .add(Restrictions.eq("estado.ativo", 1))
+                    .list();
         }catch (Exception e){
             throw new Exception("Erro ao pesquisar todos os estados! " + e);
         }finally {
@@ -54,8 +57,10 @@ public class EstadoDAO implements IService {
         try{
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Estado where id =" + id);
-            return query.uniqueResult();
+            return session.createCriteria(Estado.class, "estado")
+                    .add(Restrictions.eq("estado.id", id))
+                    .add(Restrictions.eq("estado.ativo", 1))
+                    .uniqueResult();
         }catch (Exception e){
             throw new Exception("Erro ao pesquisar estado pelo id!"+ id );
         }
@@ -63,14 +68,16 @@ public class EstadoDAO implements IService {
             session.close();
         }
     }
+
     public List<Estado> retreaveByNome(String nome) throws Exception {
         try{
             if(StringUtils.isNotBlank(nome)) {
                 session = getSession();
                 session.beginTransaction();
-                Query query = session.createQuery("from Estado where nome LIKE '" + nome + "%'");
-                List resultList = query.list();
-                return resultList;
+                return session.createCriteria(Estado.class, "estado")
+                        .add(Restrictions.eq("estado.ativo", 1))
+                        .add(Restrictions.like("nome", nome +"%"))
+                        .list();
             }else {
                 return null;
             }
@@ -85,9 +92,7 @@ public class EstadoDAO implements IService {
             Estado estado = (Estado) objEstado;
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Estado set nome = :NOME where = id" + estado.getId());
-            query.setParameter(":NOME", estado.getNome());
-            query.executeUpdate();
+            session.saveOrUpdate(estado);
             session.getTransaction().commit();
         }catch (Exception e){
             throw new Exception("Erro ao alterar estado!" + e);
@@ -97,12 +102,13 @@ public class EstadoDAO implements IService {
     }
 
     @Override
-    public void delete(int id) throws Exception {
+    public void delete(Object objEstado) throws Exception {
+        Estado estado = (Estado) objEstado;
+        estado.setAtivo(0);
         try{
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from Estado where id ="+ id);
-            query.executeUpdate();
+            session.saveOrUpdate(estado);
             session.getTransaction().commit();
         }catch (Exception e){
             throw new Exception("Erro ao deletar estado!" +e);

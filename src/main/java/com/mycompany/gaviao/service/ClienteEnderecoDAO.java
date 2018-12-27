@@ -1,12 +1,14 @@
 package com.mycompany.gaviao.service;
 
+import com.mycompany.gaviao.model.Cliente;
 import com.mycompany.gaviao.model.ClienteEndereco;
-import com.mycompany.gaviao.model.Estado;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Restrictions;
+import org.hibernate.sql.JoinType;
 
 import java.util.List;
 
@@ -26,10 +28,12 @@ public class ClienteEnderecoDAO implements IService {
 
     @Override
     public void create(Object objClienteEndereco) throws Exception {
+        ClienteEndereco endereco = (ClienteEndereco) objClienteEndereco;
+        endereco.setAtivo(1);
         try {
             session = getSession();
             session.beginTransaction();
-            session.save(objClienteEndereco);
+            session.save(endereco);
             session.getTransaction().commit();
 
         }catch (Exception e){
@@ -42,22 +46,29 @@ public class ClienteEnderecoDAO implements IService {
         try{
             session = getSession();
             session.beginTransaction();
-            List<ClienteEndereco> enderecos = session.createCriteria(ClienteEndereco.class, "endereco").createAlias("endereco.cidade", "cidade").list();
-            return enderecos;
+            List<ClienteEndereco> lista =  session.createCriteria(ClienteEndereco.class, "endereco")
+                    .add(Restrictions.eq("endereco.ativo", 1))
+                    .createAlias("endereco.cidade", "cidade", JoinType.LEFT_OUTER_JOIN)
+                    .createAlias("endereco.cliente", "cliente")
+                    .list();
+            return lista;
         }catch (Exception e){
             throw new Exception("Erro ao listar todos os endereços, ", e);
         }finally {
             session.close();
         }
     }
-    public List<ClienteEndereco> retreaveByLogradouro(String nome) throws Exception {
+    public List retreaveByLogradouro(String nome) throws Exception {
         try {
             if(StringUtils.isNotBlank(nome)) {
                 session = getSession();
                 session.beginTransaction();
-                Query query = session.createQuery("from ClienteEndereco where logradouro LIKE '"+nome+"%' ");
-                List resultList = query.list();
-                return resultList;
+                return session.createCriteria(ClienteEndereco.class, "endereco")
+                        .add(Restrictions.eq("endereco.ativo", 1))
+                        .add(Restrictions.like("logradouro", nome + "%"))
+                        .list();
+//                Query query = session.createQuery("from ClienteEndereco where logradouro LIKE '"+nome+"%' ");
+//                return query.list();
             }else{
                 return null;
             }
@@ -74,12 +85,35 @@ public class ClienteEnderecoDAO implements IService {
         try {
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from ClienteEndereco where id =" + id);
-            ClienteEndereco endereco = (ClienteEndereco) query.uniqueResult();
-            return endereco;
+            return session.createCriteria(ClienteEndereco.class, "endereco")
+                    .add(Restrictions.eq("endereco.ativo", 1))
+                    .add(Restrictions.eq("endereco.id", id))
+                    .uniqueResult();
+//            Query query = session.createQuery("from ClienteEndereco where id =" + id);
+//            ClienteEndereco endereco = (ClienteEndereco) query.uniqueResult();
+//            return endereco;
         }catch (Exception e){
             throw new Exception("Erro ao pesquisar endereço por id", e);
         }finally {
+            session.close();
+        }
+    }
+
+    public List<ClienteEndereco> retreaveByClienteId(Long clienteId) throws Exception {
+        try {
+            session = getSession();
+            session.beginTransaction();
+            List<ClienteEndereco> list =  session.createCriteria(ClienteEndereco.class, "endereco")
+                    .createAlias("endereco.cliente", "cliente", JoinType.LEFT_OUTER_JOIN)
+                    .createAlias("endereco.cidade", "cidade", JoinType.LEFT_OUTER_JOIN)
+                    .add(Restrictions.eq("endereco.ativo", 1))
+                    .add(Restrictions.eq("cliente.id", clienteId))
+                    .list();
+
+            return list;
+        } catch (Exception e){
+            throw new Exception("Erro ao Listar clienteEndereco por ClienteId", e);
+        } finally {
             session.close();
         }
     }
@@ -88,19 +122,10 @@ public class ClienteEnderecoDAO implements IService {
     public void update(Object objEndereco) throws Exception {
         try {
             ClienteEndereco endereco = (ClienteEndereco) objEndereco;
+            endereco.setAtivo(1);
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from ClienteEndereco set" +
-                    "logradouro = :LOGRADOURO, numero = :NUMERO, complemento = : COMPLEMENTO" +
-                    "bairro = :BAIRRO, cidade = :CIDADE, pais = :PAIS, cep = :CEP where id =" + endereco.getId());
-            query.setParameter("LOGRADOURO", endereco.getLogradouro());
-            query.setParameter("NUMERO", endereco.getNumero());
-            query.setParameter("COMPLEMENTO", endereco.getComplemento());
-            query.setParameter("BAIRRO", endereco.getBairro());
-            query.setParameter("CIDADE", endereco.getCidade());
-            query.setParameter("PAIS", endereco.getPais());
-            query.setParameter("CEP", endereco.getCep());
-            query.executeUpdate();
+            session.saveOrUpdate(endereco);
             session.getTransaction().commit();
         }catch (Exception e){
             throw new Exception("Erro ao alterar o endereço!", e);
@@ -110,12 +135,13 @@ public class ClienteEnderecoDAO implements IService {
     }
 
     @Override
-    public void delete(int id) throws Exception {
+    public void delete(Object objClienteEndereco) throws Exception {
+        ClienteEndereco endereco = (ClienteEndereco) objClienteEndereco;
+        endereco.setAtivo(0);
         try {
             session = getSession();
             session.beginTransaction();
-            Query query = session.createQuery("from ClienteEndereco where id =" + id);
-            query.executeUpdate();
+            session.saveOrUpdate(endereco);
             session.getTransaction().commit();
         }catch (Exception e){
             throw new Exception("Error ao deletar endereço! ", e);

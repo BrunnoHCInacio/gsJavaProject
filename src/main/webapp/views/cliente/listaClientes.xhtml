@@ -8,11 +8,11 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core"
 >
 <h:head>
-    <title>Lista de Cidades</title>
+    <title>Lista de Clientes</title>
 </h:head>
 <h:body>
     <f:metadata>
-        <f:viewAction id="actCliente" action="#{clienteBean.listar}" />
+        <f:viewAction id="actCliente" action="#{clienteBean.pesquisarTodosClientes}" />
     </f:metadata>
     <h:form>
         <p:growl id="listaCliente" showDetail="true"/>
@@ -34,14 +34,11 @@
                     <h:outputText value="#{cliente.rg}" />
                 </p:column>
 
-                <p:column headerText="Endereco">
-                    <h:outputText value="#{cliente.endereco.logradouro}" />
-                </p:column>
-                <p:column headerText="Actions" id="actions">
+                <p:column headerText="Actions">
                     <p:commandLink  action="#{clienteBean.paginaEditarCliente(cliente.id)}" style="margin-right:20px;">
                         <h:outputText value="edit" />
                     </p:commandLink>
-                    <p:commandLink  action="#{clienteBean.deletar(cliente.id)}" style="margin-right:20px;" update="@form">
+                    <p:commandLink  action="#{clienteBean.deletarCliente(cliente)}" style="margin-right:20px;" update="@form">
                         <h:outputText value="delete" />
                     </p:commandLink>
                 </p:column>

@@ -9,6 +9,6 @@ public interface IService {
     public List retreaveAll() throws Exception;
     public Object retreaveById(int id) throws Exception;
     public void update(Object objetc) throws Exception;
-    public void delete(int id) throws Exception;
+    public void delete(Object object) throws Exception;
 
 }

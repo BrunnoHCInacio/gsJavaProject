@@ -12,12 +12,12 @@
 </h:head>
 <h:body>
     <f:metadata>
-        <f:viewAction id="actEndereco" action="#{clienteEnderecoBean.pesquisarTodos}" />
+        <f:viewAction id="actEndereco" action="#{clienteBean.pesquisarTodosEnderecos}"   />
     </f:metadata>
     <h:form>
         <p:growl id="listaEndereco" showDetail="true"/>
         <p:panel header="Lista de Endereços">
-            <p:dataTable id="tableEndereco" var="endereco" value="#{clienteEnderecoBean.listaEndereco}">
+            <p:dataTable id="tableEndereco" var="endereco" value="#{clienteBean.listaEndereco}">
 
                 <p:column headerText="Id">
                     <h:outputText value="#{endereco.id}" />
@@ -44,14 +44,18 @@
                 <p:column headerText="CEP">
                     <h:outputText value="#{endereco.cep}" />
                 </p:column>
-                <p:column headerText="Actions" id="actions">
-                    <p:commandLink  action="#{clienteEnderecoBean.paginaEditarEndereco(endereco.id)}" style="margin-right:20px;">
-                        <h:outputText value="edit" />
-                    </p:commandLink>
-                    <p:commandLink  action="#{clienteEnderecoBean.deletar(endereco.id)}" style="margin-right:20px;" update="@form">
-                        <h:outputText value="delete" />
-                    </p:commandLink>
+
+                <p:column headerText="Cliente">
+                    <h:outputText value="#{endereco.cliente.nome}" />
                 </p:column>
+                <!--<p:column headerText="Actions">-->
+                    <!--<p:commandLink  action="#{clienteBean.paginaEditarEndereco(endereco.id)}" style="margin-right:20px;">-->
+                        <!--<h:outputText value="edit" />-->
+                    <!--</p:commandLink>-->
+                    <!--<p:commandLink  action="#{clienteBean.deletarEndereco(endereco)}" style="margin-right:20px;" update="@form">-->
+                        <!--<h:outputText value="delete" />-->
+                    <!--</p:commandLink>-->
+                <!--</p:column>-->
             </p:dataTable>
         </p:panel>
     </h:form>

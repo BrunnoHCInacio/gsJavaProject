@@ -9,49 +9,21 @@
 </h:head>
 <h:body>
 
-    <f:metadata>
-        <f:viewAction action="#{clienteBean.inicializar}" />
-    </f:metadata>
     <h:form>
-        <p:growl id="msgs" showDetail="true"/>
-        <p:panel header="Cadastro de clientes">
-            <h:panelGrid columns="2" cellpadding="5" id="pnl">
-                <p:outputLabel value="Nome:" for="nome"/>
-                <p:inputText id="nome" value="#{clienteBean.cliente.nome}" required="true"/>
-                <p:outputLabel value="CPF:" for="cpf"/>
-                <p:inputText id="cpf" value="#{clienteBean.cliente.cpf}" required="true" />
-                <p:outputLabel value="RG:" for="rg"/>
-                <p:inputText id="rg" value="#{clienteBean.cliente.rg}" required="true" />
-                <p:outputLabel value="Logradouro:" for="logradouro"/>
-                <p:inputText id="logradouro" value="#{clienteBean.endereco.logradouro}" required="true" />
-                <p:outputLabel value="Número:" for="numero"/>
-                <p:inputText id="numero" value="#{clienteBean.endereco.numero}" required="true" />
-                <p:outputLabel value="Complemento:" for="complemento"/>
-                <p:inputText id="complemento" value="#{clienteBean.endereco.complemento}" required="true" />
-                <p:outputLabel value="Bairro:" for="bairro"/>
-                <p:inputText id="bairro" value="#{clienteBean.endereco.bairro}" required="true" />
-                <p:outputLabel value="Cidade:" for="auto-complete-cidade" />
-                <p:columnGroup>
-                <p:autoComplete id="auto-complete-cidade"
-                                dropdown="true"
-                                value="#{clienteBean.endereco.cidade}"
-                                completeMethod="#{cidadeBean.pesquisarPorNome}"
-                                var="c"
-                                converter="cidadeConverter"
-                                itemLabel="#{c.nome}"
-                                itemValue="#{c}"
-                                forceSelection="true"
-                                required="true"
-                />
-                <p:watermark value="pesquise pela cidade" for="auto-complete-cidade"></p:watermark>
-                </p:columnGroup>
-                <p:outputLabel value="País:" for="pais"/>
-                <p:inputText id="pais" value="#{clienteBean.endereco.pais}" required="true" />
-                <p:outputLabel value="CEP:" for="cep"/>
-                <p:inputText id="cep" value="#{clienteBean.endereco.cep}" required="true" />
-                <p:commandButton value="Salvar" actionListener="#{clienteBean.salvar}" update="@form" style="margin-right:20px;" styleClass="ui-priority-primary"/>
-            </h:panelGrid>
-        </p:panel>
+        <h:panelGrid columns="6" cellpadding="5" id="pnl">
+            <p:outputLabel value="Nome:" for="nome"/>
+            <p:inputText id="nome" value="#{clienteBean.cliente.nome}" required="true">
+                <p:ajax process="@this" />
+            </p:inputText>
+            <p:outputLabel value="CPF:" for="cpf"/>
+            <p:inputText id="cpf" value="#{clienteBean.cliente.cpf}" required="true" >
+                <p:ajax process="@this" />
+            </p:inputText>
+            <p:outputLabel value="RG:" for="rg"/>
+            <p:inputText id="rg" value="#{clienteBean.cliente.rg}" required="true" >
+                <p:ajax process="@this" />
+            </p:inputText>
+        </h:panelGrid>
     </h:form>
 </h:body>
 </html>

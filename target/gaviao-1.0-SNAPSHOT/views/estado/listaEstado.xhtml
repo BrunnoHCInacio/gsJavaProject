@@ -30,7 +30,7 @@
                         <p:commandLink  action="#{estadoBean.paginaEditarEstado(estado.id)}" style="margin-right:20px;">
                             <h:outputText value="edit" />
                         </p:commandLink>
-                        <p:commandLink  action="#{estadoBean.deletar(estado.id)}" style="margin-right:20px;" update="@form">
+                        <p:commandLink  action="#{estadoBean.deletar(estado)}" style="margin-right:20px;" update="@form">
                             <h:outputText value="delete" />
                         </p:commandLink>
                     </p:column>

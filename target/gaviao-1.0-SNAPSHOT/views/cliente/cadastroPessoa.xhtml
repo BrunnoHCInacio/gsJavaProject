@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:p="http://primefaces.org/ui"
+        xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Cadastro de Cliente</title>
+</h:head>
+<h:body>
+    <f:metadata>
+        <f:viewAction action="#{clienteBean.inicializar}" />
+    </f:metadata>
+    <h:form>
+        <p:tabView id="tabsSystem" widgetVar="tabview_principal" style="margin-top: 10px;">
+            <p:tab title="Cliente"><ui:include src="cadastroCliente.xhtml"/></p:tab>
+            <p:tab title="Endereços"><ui:include src="../endereco/cadastroEnderecos.xhtml"/></p:tab>
+        </p:tabView>
+        <p:commandButton value="Salvar"
+                         actionListener="#{clienteBean.salvar}"
+                         update="@form"
+                         style="margin-right:20px;"
+                         styleClass="ui-priority-primary"
+        />
+    </h:form>
+</h:body>
+</html>
+

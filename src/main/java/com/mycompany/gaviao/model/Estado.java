@@ -8,7 +8,7 @@ public class
 Estado {
     private int id;
     private String nome;
-    private Boolean ativo;
+    private int ativo;
 
     @Id
     @Column(name = "id")
@@ -21,10 +21,10 @@ Estado {
     public void setNome(String nome) { this.nome = nome; }
 
     @Column(name = "ativo")
-    public Boolean getAtivo() {
+    public int getAtivo() {
         return ativo;
     }
-    public void setAtivo(Boolean ativo) {
+    public void setAtivo(int ativo) {
         this.ativo = ativo;
     }
 }

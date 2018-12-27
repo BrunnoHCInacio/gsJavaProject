@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Facelet Title</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:panelGrid columns="6" cellpadding="5" id="pnl">
+            <p:outputLabel value="Logradouro:" for="logradouro"/>
+            <p:inputText id="logradouro" value="#{clienteBean.endereco.logradouro}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+            <p:outputLabel value="Número:" for="numero"/>
+            <p:inputText id="numero" value="#{clienteBean.endereco.numero}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+            <p:outputLabel value="Complemento:" for="complemento"/>
+            <p:inputText id="complemento" value="#{clienteBean.endereco.complemento}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+            <p:outputLabel value="Bairro:" for="bairro"/>
+            <p:inputText id="bairro" value="#{clienteBean.endereco.bairro}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+            <p:outputLabel value="Cidade:" for="auto-complete-cidade"/>
+            <p:autoComplete id="auto-complete-cidade"
+                            dropdown="true"
+                            value="#{clienteBean.endereco.cidade}"
+                            completeMethod="#{cidadeBean.pesquisarPorNome}"
+                            var="c" placeholder="Pesquise pela cidade"
+                            converter="cidadeConverter"
+                            itemLabel="#{c.nome}"
+                            itemValue="#{c}"
+                            forceSelection="true"
+                            required="true">
+                <p:ajax event="itemSelect" process="@this"/>
+            </p:autoComplete>
+            <p:outputLabel value="País:" for="pais"/>
+            <p:inputText id="pais" value="#{clienteBean.endereco.pais}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+            <p:outputLabel value="CEP:" for="cep"/>
+            <p:inputText id="cep" value="#{clienteBean.endereco.cep}" required="true">
+                <p:ajax process="@this"/>
+            </p:inputText>
+
+        </h:panelGrid>
+        <p:commandButton value="Adicionar"
+                         actionListener="#{clienteBean.adicionarEndereco}"
+                         update="@form"
+                         process="@this"
+                         style="margin-right:20px;"
+                         styleClass="ui-priority-primary"
+        >
+        </p:commandButton>
+        <p:dataTable id="tableEnderecos" var="endereco" value="#{clienteBean.cliente.enderecos}">
+
+            <p:column headerText="Logradouro">
+                <h:outputText value="#{endereco.logradouro}"/>
+            </p:column>
+
+            <p:column headerText="Número">
+                <h:outputText value="#{endereco.numero}"/>
+            </p:column>
+
+            <p:column headerText="Complemento">
+                <h:outputText value="#{endereco.complemento}"/>
+            </p:column>
+
+            <p:column headerText="Bairro">
+                <h:outputText value="#{endereco.bairro}"/>
+            </p:column>
+
+            <p:column headerText="Cidade">
+                <h:outputText value="#{endereco.cidade.nome}"/>
+            </p:column>
+
+            <p:column headerText="Pais">
+                <h:outputText value="#{endereco.pais}"/>
+            </p:column>
+            <p:column headerText="CEP">
+                <h:outputText value="#{endereco.cep}"/>
+            </p:column>
+            <p:column headerText="Actions" id="actions">
+                <p:commandLink actionListener="#{clienteBean.editarEndereco(endereco)}"
+                               style="margin-right:20px;"
+                               process="@this"
+                               update="@form"
+                >
+                    <h:outputText value="edit"/>
+                </p:commandLink>
+                <p:commandLink action="#{clienteBean.deletarEndTable(endereco)}"
+                               style="margin-right:20px;"
+                               update="@form"
+                               process="@this"
+                >
+                    <h:outputText value="delete"/>
+                </p:commandLink>
+            </p:column>
+
+        </p:dataTable>
+    </h:form>
+</h:body>
+</html>
+
