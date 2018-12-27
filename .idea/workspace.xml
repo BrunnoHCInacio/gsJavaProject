@@ -5,11 +5,107 @@
       <artifact name="gaviao:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" line="70" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e324100f-41d1-4bd9-8810-400b57388bf2" name="Default Changelist" comment="" />
+    <list default="true" id="36d10932-1998-4730-a4e0-f90c45d49322" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gaviao_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gaviao_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_faces_2_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaviao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gaviao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/gaviao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/CidadeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/CidadeBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/EstadoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/EstadoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/menuBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/bean/menuBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Cidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Cidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/ClienteEndereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/ClienteEndereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/model/Estado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/CidadeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/CidadeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/EstadoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/service/EstadoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/CidadeBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/CidadeBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/ClienteEnderecoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/EstadoBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/EstadoBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/menuBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/bean/menuBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Cidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Cidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/ClienteEndereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/ClienteEndereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/model/Estado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/CidadeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/CidadeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/EstadoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/service/EstadoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/utils/conversores/CidadeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/gaviao/validate/ClienteEnderecoValidate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/cadastroCidade.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cidade/cadastroCidade.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/cadastroCliente.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/cadastroCliente.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/listaClientes.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/cliente/listaClientes.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/endereco/listaClienteEndereco.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/endereco/listaClienteEndereco.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/cadastroEstado.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/estado/cadastroEstado.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/pagePrincipal.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gaviao-1.0-SNAPSHOT/views/pagePrincipal.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,67 +130,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#3739#3740#0" expanded="true" />
+                <element signature="e#3805#3806#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="124" column="11" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="124" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-              <folding>
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1700">
+              <caret line="106" column="11" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="106" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-                <element signature="e#1842#1843#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,73 +192,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="XHTML File" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>form</find>
-      <find>Cliente</find>
-      <find>inicia</find>
-      <find>estados</find>
+      <find>commandButton</find>
+      <find>process</find>
+      <find>ini</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteJpaDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/iValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/clienteValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/iService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/IValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEndereco.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cadastroClienteEndereco.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cadastrocliente.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/EstadoValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/CidadeValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/listaclientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/listaCidade.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cadastroEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/listaEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/listaClienteEndereco.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/listaClientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/tabs.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cadastroCliente.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cadastroCidade.xhtml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/EstadoConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/IBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java" />
       </list>
     </option>
   </component>
@@ -181,13 +249,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -195,185 +256,173 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="gaviao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gaviao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gaviao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="677" />
+    <option name="y" value="1" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gaviao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mycompany" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gaviao" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mycompany" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gaviao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gaviao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mycompany" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gaviao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gaviao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mycompany" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gaviao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mycompany" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gaviao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="cidade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="cliente" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cidade" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="endereco" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cliente" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="gaviao" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gaviao" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="endereco" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gaviao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gsJavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="estado" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545408590780" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545852918186" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Salatiel\Documents\NetBeansProjects\gaviao\src\main\webapp\views\estado" />
-      <recent name="C:\Users\Salatiel\Documents\NetBeansProjects\gaviao\src\main\webapp\views\endereco" />
-      <recent name="C:\Users\Salatiel\Documents\NetBeansProjects\gaviao\src\main\webapp\views\cidade" />
-      <recent name="C:\Users\Salatiel\Documents\NetBeansProjects\gaviao\src\main\webapp\views\cliente" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,56 +437,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/gaviao/faces/views/pagePrincipal.xhtml" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="gaviao:war exploded">
@@ -447,7 +449,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_12_gaviao" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_gaviao" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -455,7 +457,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52839" />
+        <option name="DEBUG_PORT" value="49902" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -506,79 +508,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="gaviao:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="gaviao:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/gaviao" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_gaviao" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52839" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="gaviao:war exploded" />
-          <artifact name="gaviao:war" />
         </option>
       </method>
     </configuration>
@@ -588,39 +517,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e324100f-41d1-4bd9-8810-400b57388bf2" name="Default Changelist" comment="" />
-      <created>1544714812750</created>
+      <changelist id="36d10932-1998-4730-a4e0-f90c45d49322" name="Default Changelist" comment="" />
+      <created>1545413052458</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544714812750</updated>
-      <workItem from="1544714835110" duration="9244000" />
-      <workItem from="1544725272694" duration="5217000" />
-      <workItem from="1544778955962" duration="28225000" />
-      <workItem from="1545037474708" duration="29357000" />
-      <workItem from="1545125109746" duration="26911000" />
-      <workItem from="1545210815092" duration="61508000" />
-      <workItem from="1545383790832" duration="16082000" />
+      <updated>1545413052458</updated>
+      <workItem from="1545413054048" duration="279000" />
+      <workItem from="1545413379773" duration="1314000" />
+      <workItem from="1545415294697" duration="6848000" />
+      <workItem from="1545816808558" duration="27153000" />
+      <workItem from="1545901849620" duration="12346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176544000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="47940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.28366113" />
-      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -628,37 +546,38 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28150573" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29568106" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33387887" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15885022" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.1860817" />
-      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -666,31 +585,32 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5482815" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29787233" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33387887" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15885022" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout-to-restore>
@@ -698,413 +618,394 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="((QueryException)ex).detailMessage" custom="org.hibernate.QueryException" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="578">
+          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2.jar!/org/primefaces/component/api/UIData.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state>
+          <caret lean-forward="true" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/tabs.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/IBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2-sources.jar!/org/primefaces/component/autocomplete/AutoCompleteRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="634" selection-start-line="634" selection-end-line="634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2-sources.jar!/org/primefaces/component/autocomplete/AutoComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="483" selection-start-line="483" selection-end-line="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/IValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="78" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/tabs.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/estado/cadastroEstado.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2.jar!/org/primefaces/component/autocomplete/AutoComplete.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="2" selection-start-line="2" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcomePrimefaces.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/EstadoValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/EstadoConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/utils/conversores/CidadeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2.jar!/org/primefaces/component/autocomplete/AutoCompleteRenderer.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="23" column="77" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/IBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/CidadeValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteEnderecoValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/menuBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroCliente.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/pagePrincipal.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="829">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="561">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="46" column="78" lean-forward="true" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+        <state relative-caret-position="1224">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2661#2662#0" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
+    <entry file="das://db4f9cc5-170d-47f8-a305-5f380acb6a8d/role/postgres">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java">
+    <entry file="das://db4f9cc5-170d-47f8-a305-5f380acb6a8d/role/pg_monitor">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://db4f9cc5-170d-47f8-a305-5f380acb6a8d/role/pg_execute_server_program">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/validate/ClienteValidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/cadastroPessoa.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/cadastroEnderecos.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="55">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#inicializar#0;class#ClienteBean#0" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
-            <element signature="method#salvar#0;class#ClienteBean#0" />
-            <element signature="method#getClienteId#0;class#ClienteBean#0" />
-            <element signature="method#alterar#0;class#ClienteBean#0" />
-            <element signature="method#deletar#0;class#ClienteBean#0" />
+            <element signature="e#6188#6189#0" expanded="true" />
+            <element signature="e#6224#6225#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/ClienteEnderecoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/endereco/listaClienteEndereco.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cliente/listaClientes.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/cadastroCidade.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+        <state relative-caret-position="629">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/cidade/listaCidade.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/CidadeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Estado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="166">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/ClienteEndereco.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/estado/listaEstado.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/model/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/CidadeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteEnderecoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="124" column="11" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="124" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db4f9cc5-170d-47f8-a305-5f380acb6a8d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/bean/EstadoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding>
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="method#inicializar#0;class#EstadoBean#0" />
+            <element signature="method#salvar#0;class#EstadoBean#0" />
+            <element signature="method#pesquisarTodos#0;class#EstadoBean#0" />
+            <element signature="method#pesquisarPorId#0;class#EstadoBean#0" />
+            <element signature="method#pesquisarPorNome#0;class#EstadoBean#0" />
+            <element signature="method#alterar#0;class#EstadoBean#0" />
+            <element signature="method#deletar#0;class#EstadoBean#0" />
+            <element signature="method#atualizaTela#0;class#EstadoBean#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/EstadoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="method#getSession#0;class#EstadoDAO#0" />
+            <element signature="method#create#0;class#EstadoDAO#0" />
+            <element signature="method#retreaveAll#0;class#EstadoDAO#0" />
+            <element signature="method#retreaveById#0;class#EstadoDAO#0" />
+            <element signature="method#retreaveByNome#0;class#EstadoDAO#0" />
+            <element signature="method#update#0;class#EstadoDAO#0" />
+            <element signature="method#delete#0;class#EstadoDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/gaviao/service/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="106" column="11" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="106" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1028,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1166,20 +1067,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2074074" />
+                <option value="0.2" />
                 <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2074074" />
               </list>
             </option>
           </splitter-proportions>
@@ -1187,7 +1076,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

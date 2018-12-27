@@ -9,13 +9,10 @@
         <module name="gaviao" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gaviao" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="gaviao" options="-endorseddirs C:\Users\Salatiel\Documents\NetBeansProjects\gaviao\target/endorsed" />
+      <module name="gaviao" options="-endorseddirs C:\Users\GS\Documents\dev\gsJavaProject\target/endorsed" />
     </option>
   </component>
 </project>
